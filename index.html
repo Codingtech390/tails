@@ -55,8 +55,28 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
-            <li><a class="nav-link scrollto" href="./aboutUs.html">About Us</a></li>
+            <li>
+              <a class="nav-link scrollto active" href="./index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="./aboutUs.html">About Us</a>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Partners</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li class="dropdown">
+                  <a href="./fmcg.html"
+                    ><span>Water</span> <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Neo H20</a></li>
+                    <li><a href="#">Eco Clear</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#"
                 ><span>Products</span> <i class="bi bi-chevron-down"></i
@@ -69,7 +89,7 @@
                   <ul>
                     <li><a href="./product-details/bakery.html">Bakery</a></li>
                     <li><a href="./product-details/sweets.html">Sweets</a></li>
-                    <li><a href="#">Dairy</a></li>
+                    <li><a href="./product-details/dairy.html">Dairy</a></li>
                   </ul>
                 </li>
 
@@ -151,8 +171,10 @@
                 </li>
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="./contactUs.html">Contact</a></li>
-          </ul> 
+            <li>
+              <a class="nav-link scrollto" href="./contactUs.html">Contact</a>
+            </li>
+          </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
@@ -191,7 +213,7 @@
                   products and services that meet the diverse needs of our
                   clients.
                 </p>
-                <a href="#" class="about-btn"
+                <a href="./aboutUs.html" class="about-btn"
                   >Learn More <i class="bx bx-chevron-right"></i
                 ></a>
               </div>
@@ -313,6 +335,71 @@
       </section>
       <!-- End Services Section -->
 
+      <!-- Partners -->
+
+      <!-- ======= More Services Section ======= -->
+      <section id="more-services" class="more-services">
+        <div class="container">
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Meet Our Partners</h2>
+            <!-- <h2>Comprehensive Water Services</h2> -->
+            <p>
+              At Headon, we are proud to introduce our esteemed sister
+              companies, Neo H2O and Eco Clear, both dedicated to
+              revolutionizing the water industry and promoting sustainability.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div
+                class="card"
+                style="background-image: url('assets/img/Partners/neo-h20.jpg')"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">NEO H2O</a></h5>
+                  <p class="card-text">
+                    Neo H2O stands at the forefront of water purification
+                    technology, pioneering innovative solutions for clean, safe,
+                    and sustainable water.
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div
+                class="card"
+                style="
+                  background-image: url('assets/img/Partners/Eco-Clear.jpg');
+                "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">ECO CLEAR</a></h5>
+                  <p class="card-text">
+                    Committed to environmental conservation and sustainability,
+                    Eco Clear specializes in eco-friendly water management
+                    solutions that minimize waste
+                  </p>
+                  <div class="read-more">
+                    <a href="#"><i class="bi bi-arrow-right"></i> Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End More Services Section -->
+
+      <!-- End Partners -->
+
       <!-- ======= Counts Section ======= -->
       <section id="counts" class="counts section-bg">
         <div class="container">
@@ -375,7 +462,7 @@
 
       <!-- ======= Cta Section ======= -->
       <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
+        <div class="container-fluid" data-aos="zoom-in">
           <div class="text-center">
             <h3>Empower Your Water Journey: Click to Start Today!</h3>
             <p>
@@ -389,233 +476,6 @@
         </div>
       </section>
       <!-- End Cta Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
-        <div class="container">
-          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-            <h2>Portfolio</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-          </div>
-
-          <div class="row" data-aos="fade-in">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="row portfolio-container" data-aos="fade-up">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-1.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 1"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-2.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 3"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-3.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 2"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 2"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-5.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 2"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-6.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 3"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-7.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 1"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-8.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 3"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-9.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 3"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials section-bg">
